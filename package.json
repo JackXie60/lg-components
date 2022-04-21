@@ -7,7 +7,7 @@
     "build": "npm run clean && npm run build:esm && npm run build:umd",
     "test:watch": "vue-cli-service test:unit --watchAll",
     "test": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint --max-warnnings 5",
+    "lint": "vue-cli-service lint --max-warnnings 1",
     "build:esm": "rollup --config rollup.config.js",
     "build:umd": "rollup --config roll.config.umd.js",
     "clean": "rimraf ./dist",
